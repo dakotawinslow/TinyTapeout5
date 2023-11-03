@@ -28,22 +28,23 @@ documentation:
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      Explain how your project works
+      This project is an absolute bare minimum. 3 input pins are connected to a full adder (P0: input a, P1: input b, P7: carry) 
+      which output on pins 0 and 1. There is also a flip flop connectected to P6 and clock, with Q output on OUT6 and -Q on OUT7.
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      Explain how to test your project
+      I dot reccomend testing this.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
+    - dip0
+    - dip1
+    - dip2
+    - dip3
+    - dip4
+    - dip5
+    - dip6
+    - dip7
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
     - segment a
